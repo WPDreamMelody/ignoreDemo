@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A711F2C11BF42FE000D6AB23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2C01BF42FE000D6AB23 /* main.m */; };
+		A711F2C41BF42FE000D6AB23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2C31BF42FE000D6AB23 /* AppDelegate.m */; };
+		A711F2C71BF42FE000D6AB23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2C61BF42FE000D6AB23 /* ViewController.m */; };
+		A711F2CA1BF42FE000D6AB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A711F2C81BF42FE000D6AB23 /* Main.storyboard */; };
+		A711F2CC1BF42FE000D6AB23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A711F2CB1BF42FE000D6AB23 /* Assets.xcassets */; };
+		A711F2CF1BF42FE000D6AB23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A711F2CD1BF42FE000D6AB23 /* LaunchScreen.storyboard */; };
+		A711F2DA1BF42FE000D6AB23 /* NVTableViewPerformanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2D91BF42FE000D6AB23 /* NVTableViewPerformanceTests.m */; };
+		A711F2E51BF42FE000D6AB23 /* NVTableViewPerformanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2E41BF42FE000D6AB23 /* NVTableViewPerformanceUITests.m */; };
+		A711F2FA1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */; };
+		A711F2FB1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */; };
+		A711F2FC1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */; };
+		A7F090EF1BF5CFDD0048A895 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F090EE1BF5CFDD0048A895 /* cc.png */; };
+		A7F090F01BF5CFDD0048A895 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F090EE1BF5CFDD0048A895 /* cc.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A711F2D61BF42FE000D6AB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A711F2B41BF42FE000D6AB23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A711F2BB1BF42FE000D6AB23;
+			remoteInfo = NVTableViewPerformance;
+		};
+		A711F2E11BF42FE000D6AB23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A711F2B41BF42FE000D6AB23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A711F2BB1BF42FE000D6AB23;
+			remoteInfo = NVTableViewPerformance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A711F2BC1BF42FE000D6AB23 /* NVTableViewPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVTableViewPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711F2C01BF42FE000D6AB23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A711F2C21BF42FE000D6AB23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A711F2C31BF42FE000D6AB23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A711F2C51BF42FE000D6AB23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A711F2C61BF42FE000D6AB23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A711F2C91BF42FE000D6AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A711F2CB1BF42FE000D6AB23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A711F2CE1BF42FE000D6AB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A711F2D01BF42FE000D6AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A711F2D51BF42FE000D6AB23 /* NVTableViewPerformanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVTableViewPerformanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711F2D91BF42FE000D6AB23 /* NVTableViewPerformanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVTableViewPerformanceTests.m; sourceTree = "<group>"; };
+		A711F2DB1BF42FE000D6AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A711F2E01BF42FE000D6AB23 /* NVTableViewPerformanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVTableViewPerformanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A711F2E41BF42FE000D6AB23 /* NVTableViewPerformanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVTableViewPerformanceUITests.m; sourceTree = "<group>"; };
+		A711F2E61BF42FE000D6AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A711F2F81BF458AA00D6AB23 /* NVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVTableViewCell.h; sourceTree = "<group>"; };
+		A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVTableViewCell.m; sourceTree = "<group>"; };
+		A7F090EE1BF5CFDD0048A895 /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A711F2B91BF42FE000D6AB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711F2D21BF42FE000D6AB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711F2DD1BF42FE000D6AB23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A711F2B31BF42FE000D6AB23 = {
+			isa = PBXGroup;
+			children = (
+				A711F2BE1BF42FE000D6AB23 /* NVTableViewPerformance */,
+				A711F2D81BF42FE000D6AB23 /* NVTableViewPerformanceTests */,
+				A711F2E31BF42FE000D6AB23 /* NVTableViewPerformanceUITests */,
+				A711F2BD1BF42FE000D6AB23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A711F2BD1BF42FE000D6AB23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A711F2BC1BF42FE000D6AB23 /* NVTableViewPerformance.app */,
+				A711F2D51BF42FE000D6AB23 /* NVTableViewPerformanceTests.xctest */,
+				A711F2E01BF42FE000D6AB23 /* NVTableViewPerformanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A711F2BE1BF42FE000D6AB23 /* NVTableViewPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				A711F2F51BF4305C00D6AB23 /* cell */,
+				A711F2C21BF42FE000D6AB23 /* AppDelegate.h */,
+				A711F2C31BF42FE000D6AB23 /* AppDelegate.m */,
+				A711F2C51BF42FE000D6AB23 /* ViewController.h */,
+				A711F2C61BF42FE000D6AB23 /* ViewController.m */,
+				A711F2C81BF42FE000D6AB23 /* Main.storyboard */,
+				A711F2CB1BF42FE000D6AB23 /* Assets.xcassets */,
+				A711F2CD1BF42FE000D6AB23 /* LaunchScreen.storyboard */,
+				A711F2D01BF42FE000D6AB23 /* Info.plist */,
+				A711F2BF1BF42FE000D6AB23 /* Supporting Files */,
+			);
+			path = NVTableViewPerformance;
+			sourceTree = "<group>";
+		};
+		A711F2BF1BF42FE000D6AB23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A711F2C01BF42FE000D6AB23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A711F2D81BF42FE000D6AB23 /* NVTableViewPerformanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A711F2D91BF42FE000D6AB23 /* NVTableViewPerformanceTests.m */,
+				A711F2DB1BF42FE000D6AB23 /* Info.plist */,
+			);
+			path = NVTableViewPerformanceTests;
+			sourceTree = "<group>";
+		};
+		A711F2E31BF42FE000D6AB23 /* NVTableViewPerformanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A711F2E41BF42FE000D6AB23 /* NVTableViewPerformanceUITests.m */,
+				A711F2E61BF42FE000D6AB23 /* Info.plist */,
+			);
+			path = NVTableViewPerformanceUITests;
+			sourceTree = "<group>";
+		};
+		A711F2F51BF4305C00D6AB23 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				A7F090EE1BF5CFDD0048A895 /* cc.png */,
+				A711F2F81BF458AA00D6AB23 /* NVTableViewCell.h */,
+				A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A711F2BB1BF42FE000D6AB23 /* NVTableViewPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711F2E91BF42FE000D6AB23 /* Build configuration list for PBXNativeTarget "NVTableViewPerformance" */;
+			buildPhases = (
+				A711F2B81BF42FE000D6AB23 /* Sources */,
+				A711F2B91BF42FE000D6AB23 /* Frameworks */,
+				A711F2BA1BF42FE000D6AB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVTableViewPerformance;
+			productName = NVTableViewPerformance;
+			productReference = A711F2BC1BF42FE000D6AB23 /* NVTableViewPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A711F2D41BF42FE000D6AB23 /* NVTableViewPerformanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711F2EC1BF42FE000D6AB23 /* Build configuration list for PBXNativeTarget "NVTableViewPerformanceTests" */;
+			buildPhases = (
+				A711F2D11BF42FE000D6AB23 /* Sources */,
+				A711F2D21BF42FE000D6AB23 /* Frameworks */,
+				A711F2D31BF42FE000D6AB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A711F2D71BF42FE000D6AB23 /* PBXTargetDependency */,
+			);
+			name = NVTableViewPerformanceTests;
+			productName = NVTableViewPerformanceTests;
+			productReference = A711F2D51BF42FE000D6AB23 /* NVTableViewPerformanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A711F2DF1BF42FE000D6AB23 /* NVTableViewPerformanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A711F2EF1BF42FE000D6AB23 /* Build configuration list for PBXNativeTarget "NVTableViewPerformanceUITests" */;
+			buildPhases = (
+				A711F2DC1BF42FE000D6AB23 /* Sources */,
+				A711F2DD1BF42FE000D6AB23 /* Frameworks */,
+				A711F2DE1BF42FE000D6AB23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A711F2E21BF42FE000D6AB23 /* PBXTargetDependency */,
+			);
+			name = NVTableViewPerformanceUITests;
+			productName = NVTableViewPerformanceUITests;
+			productReference = A711F2E01BF42FE000D6AB23 /* NVTableViewPerformanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A711F2B41BF42FE000D6AB23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DianPing;
+				TargetAttributes = {
+					A711F2BB1BF42FE000D6AB23 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					A711F2D41BF42FE000D6AB23 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A711F2BB1BF42FE000D6AB23;
+					};
+					A711F2DF1BF42FE000D6AB23 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = A711F2BB1BF42FE000D6AB23;
+					};
+				};
+			};
+			buildConfigurationList = A711F2B71BF42FE000D6AB23 /* Build configuration list for PBXProject "NVTableViewPerformance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A711F2B31BF42FE000D6AB23;
+			productRefGroup = A711F2BD1BF42FE000D6AB23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A711F2BB1BF42FE000D6AB23 /* NVTableViewPerformance */,
+				A711F2D41BF42FE000D6AB23 /* NVTableViewPerformanceTests */,
+				A711F2DF1BF42FE000D6AB23 /* NVTableViewPerformanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A711F2BA1BF42FE000D6AB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711F2CF1BF42FE000D6AB23 /* LaunchScreen.storyboard in Resources */,
+				A711F2CC1BF42FE000D6AB23 /* Assets.xcassets in Resources */,
+				A711F2CA1BF42FE000D6AB23 /* Main.storyboard in Resources */,
+				A7F090EF1BF5CFDD0048A895 /* cc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711F2D31BF42FE000D6AB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F090F01BF5CFDD0048A895 /* cc.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711F2DE1BF42FE000D6AB23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A711F2B81BF42FE000D6AB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711F2C71BF42FE000D6AB23 /* ViewController.m in Sources */,
+				A711F2C41BF42FE000D6AB23 /* AppDelegate.m in Sources */,
+				A711F2C11BF42FE000D6AB23 /* main.m in Sources */,
+				A711F2FA1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711F2D11BF42FE000D6AB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711F2DA1BF42FE000D6AB23 /* NVTableViewPerformanceTests.m in Sources */,
+				A711F2FB1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A711F2DC1BF42FE000D6AB23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A711F2E51BF42FE000D6AB23 /* NVTableViewPerformanceUITests.m in Sources */,
+				A711F2FC1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A711F2D71BF42FE000D6AB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A711F2BB1BF42FE000D6AB23 /* NVTableViewPerformance */;
+			targetProxy = A711F2D61BF42FE000D6AB23 /* PBXContainerItemProxy */;
+		};
+		A711F2E21BF42FE000D6AB23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A711F2BB1BF42FE000D6AB23 /* NVTableViewPerformance */;
+			targetProxy = A711F2E11BF42FE000D6AB23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A711F2C81BF42FE000D6AB23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A711F2C91BF42FE000D6AB23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A711F2CD1BF42FE000D6AB23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A711F2CE1BF42FE000D6AB23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A711F2E71BF42FE000D6AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A711F2E81BF42FE000D6AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A711F2EA1BF42FE000D6AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = NVTableViewPerformance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kang.yu.sh.NVTableViewPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A711F2EB1BF42FE000D6AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = NVTableViewPerformance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kang.yu.sh.NVTableViewPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A711F2ED1BF42FE000D6AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NVTableViewPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kang.yu.sh.NVTableViewPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVTableViewPerformance.app/NVTableViewPerformance";
+			};
+			name = Debug;
+		};
+		A711F2EE1BF42FE000D6AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NVTableViewPerformanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kang.yu.sh.NVTableViewPerformanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVTableViewPerformance.app/NVTableViewPerformance";
+			};
+			name = Release;
+		};
+		A711F2F01BF42FE000D6AB23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NVTableViewPerformanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kang.yu.sh.NVTableViewPerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NVTableViewPerformance;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A711F2F11BF42FE000D6AB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NVTableViewPerformanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kang.yu.sh.NVTableViewPerformanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NVTableViewPerformance;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A711F2B71BF42FE000D6AB23 /* Build configuration list for PBXProject "NVTableViewPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711F2E71BF42FE000D6AB23 /* Debug */,
+				A711F2E81BF42FE000D6AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711F2E91BF42FE000D6AB23 /* Build configuration list for PBXNativeTarget "NVTableViewPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711F2EA1BF42FE000D6AB23 /* Debug */,
+				A711F2EB1BF42FE000D6AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711F2EC1BF42FE000D6AB23 /* Build configuration list for PBXNativeTarget "NVTableViewPerformanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711F2ED1BF42FE000D6AB23 /* Debug */,
+				A711F2EE1BF42FE000D6AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A711F2EF1BF42FE000D6AB23 /* Build configuration list for PBXNativeTarget "NVTableViewPerformanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A711F2F01BF42FE000D6AB23 /* Debug */,
+				A711F2F11BF42FE000D6AB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A711F2B41BF42FE000D6AB23 /* Project object */;
+}
