@@ -18,8 +18,7 @@
 		A711F2FA1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */; };
 		A711F2FB1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */; };
 		A711F2FC1BF458AA00D6AB23 /* NVTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */; };
-		A7F090EF1BF5CFDD0048A895 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F090EE1BF5CFDD0048A895 /* cc.png */; };
-		A7F090F01BF5CFDD0048A895 /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F090EE1BF5CFDD0048A895 /* cc.png */; };
+		B66079931BF8831100E469EA /* cc.png in Resources */ = {isa = PBXBuildFile; fileRef = B66079921BF8831100E469EA /* cc.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +57,7 @@
 		A711F2E61BF42FE000D6AB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A711F2F81BF458AA00D6AB23 /* NVTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVTableViewCell.h; sourceTree = "<group>"; };
 		A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVTableViewCell.m; sourceTree = "<group>"; };
-		A7F090EE1BF5CFDD0048A895 /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
+		B66079921BF8831100E469EA /* cc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +151,7 @@
 		A711F2F51BF4305C00D6AB23 /* cell */ = {
 			isa = PBXGroup;
 			children = (
-				A7F090EE1BF5CFDD0048A895 /* cc.png */,
+				B66079921BF8831100E469EA /* cc.png */,
 				A711F2F81BF458AA00D6AB23 /* NVTableViewCell.h */,
 				A711F2F91BF458AA00D6AB23 /* NVTableViewCell.m */,
 			);
@@ -265,7 +264,7 @@
 				A711F2CF1BF42FE000D6AB23 /* LaunchScreen.storyboard in Resources */,
 				A711F2CC1BF42FE000D6AB23 /* Assets.xcassets in Resources */,
 				A711F2CA1BF42FE000D6AB23 /* Main.storyboard in Resources */,
-				A7F090EF1BF5CFDD0048A895 /* cc.png in Resources */,
+				B66079931BF8831100E469EA /* cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F090F01BF5CFDD0048A895 /* cc.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
